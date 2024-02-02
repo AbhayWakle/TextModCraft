@@ -26,10 +26,10 @@ export default function Textform(props) {
     setText(upper)
   }
 
-  const handleExtraSpaces = ()=>{
+  const handleExtraSpaces = () => {
     let newText = text.replace(/\s+/g, ' ').trim();
     setText(newText)
-    }
+  }
 
 
   const [text, setText] = useState("");
@@ -67,9 +67,7 @@ export default function Textform(props) {
       </div>
       <div className="container my-3" style={{ color: props.Mode === `dark` ? `white` : `black` }}>
         <h4>Text Summary</h4>
-        <p>
-          {text.split(" ").length} Words and {text.length} Characters
-        </p>
+        <p>{text.split(" ").length - 1} words and {text.length} characters</p>
         <p>
           Avearage time for reading {(0.0042 * text.split(" ").length)} minutes.
         </p>
