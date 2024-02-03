@@ -21,7 +21,7 @@ function App() {
     <>
       <Navbar
         title="TextModCraft"
-        aboutUs="About Us"
+
         Mode={Mode}
         toggleMode={toggleMode}
       />

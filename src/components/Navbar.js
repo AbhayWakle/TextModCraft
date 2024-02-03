@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export default function Navbar(props) {
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-${props.Mode} bg-${props.Mode}`}
+      className={`navbar navbar-expand-lg navbar-dark bg-dark`}
     >
       <div className="container-fluid ">
         <a className="navbar-brand" href="/">
@@ -46,7 +46,7 @@ export default function Navbar(props) {
             </button>
           </form> */}
 
-          <div className={`form-check form-switch text-${props.Mode === `light` ? `dark` : `light`}`}>
+          <div className={`form-check form-switch text-${props.Mode === `dark` ? `light` : `light`}`}>
             <input
               className="form-check-input"
               type="checkbox"
