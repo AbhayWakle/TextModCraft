@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextModCraft/static/css/main.4b2b65f1.css",
+    "main.js": "/TextModCraft/static/js/main.fbbb4ad1.js",
+    "static/js/787.f1bd99b5.chunk.js": "/TextModCraft/static/js/787.f1bd99b5.chunk.js",
+    "index.html": "/TextModCraft/index.html",
+    "main.4b2b65f1.css.map": "/TextModCraft/static/css/main.4b2b65f1.css.map",
+    "main.fbbb4ad1.js.map": "/TextModCraft/static/js/main.fbbb4ad1.js.map",
+    "787.f1bd99b5.chunk.js.map": "/TextModCraft/static/js/787.f1bd99b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b2b65f1.css",
+    "static/js/main.fbbb4ad1.js"
+  ]
+}
